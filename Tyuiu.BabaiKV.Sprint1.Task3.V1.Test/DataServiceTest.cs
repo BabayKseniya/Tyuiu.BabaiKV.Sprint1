@@ -11,7 +11,7 @@ namespace Tyuiu.BabaiKV.Sprint1.Task3.V1.Test
             double r = 1;
             double h = 2;
             var res = ds.CylinderVolume(r,h);
-            Assert.AreEqual(6.28,res);
+            Assert.AreEqual(6.283,res);
         }
     }
 }
